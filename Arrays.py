@@ -183,18 +183,16 @@
 
 
 # union and intersection
-# N1 = int(input())
-# arr1 = list(map(int, input().split()))
-# N2 = int(input())
-# arr2 = list(map(int, input().split()))
-# set1 = set(arr1)
-# set2 = set(arr2)
-# union_result = sorted(set1.union(set2))
-# intersection_result = sorted(set1.intersection(set2))
-
-
-# print("Union:", *union_result)
-# print("Intersection:", *intersection_result)
+N1 = int(input())
+arr1 = list(map(int, input().split()))
+N2 = int(input())
+arr2 = list(map(int, input().split()))
+set1 = set(arr1)
+set2 = set(arr2)
+union_result = sorted(set1.union(set2))
+intersection_result = sorted(set1.intersection(set2))
+print("Union:", *union_result)
+print("Intersection:", *intersection_result)
 
 
 # Maximum subarray
